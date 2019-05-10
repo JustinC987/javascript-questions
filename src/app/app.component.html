@@ -1,21 +1,78 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
+  <h1>Reverse String</h1>
+ <label>Reverse with reverse method</label>
+ <input id="reverse1-input" type="string">
+ <button type="button" (click)="reverseString1()">Generate</button><br>
+ <p id="reverse1-output"></p><br>
+ <label>Reverse with old fashion for loop</label>
+ <input id="reverse2-input" type="string">
+ <button type="button" (click)="reverseString2()">Generate</button><br>
+ <p id="reverse2-output"></p><br>
+ <label>Reverse with ES6 (for of)</label>
+ <input id="reverse3-input" type="string">
+ <button type="button" (click)="reverseString3()">Generate</button>
+ <p id="reverse3-output"></p><br>
+ <label>Reverse with ES6 (forEach)</label>
+ <input id="reverse4-input" type="string">
+ <button type="button" (click)="reverseString4()">Generate</button>
+ <p id="reverse4-output"></p><br>
 
-<router-outlet></router-outlet>
+ <h2>Reverse Int</h2>
+ <label>Reverse with es6</label>
+ <input id="reverseInt-input" type="string">
+ <button type="button" (click)="reverseInt()">Generate</button><br>
+ <p id="reverseInt-output"></p><br>
+
+
+ <h2>Palindrome</h2>
+ <label>Palindrome without es6</label>
+ <input id="palindrome1-input" type="string">
+ <button type="button" (click)="palindrome1()">Generate</button><br>
+ <p id="palindrome1-output"></p><br>
+
+ <label>Palindrome with es6 & Ternary</label>
+ <input id="palindrome2-input" type="string">
+ <button type="button" (click)="palindrome2()">Generate</button><br>
+ <p id="palindrome2-output"></p><br>
+
+ <h2>Capitilize First Letter of each sentence</h2>
+ <label>Capitilize</label>
+ <input id="capitilize-input" type="string">
+ <button type="button" (click)="displayCapitilize()">Generate</button><br>
+ <p id="capitilize-output"></p><br>
+
+
+ <h2>Capitilize all letters</h2>
+ <label>Capitilize All</label>
+ <input id="capitilize2-input" type="string">
+ <button type="button" (click)="displayCapitilize2()">Generate</button><br>
+ <p id="capitilize2-output"></p><br>
+
+ <h2>Fizz Buzz</h2>
+ <label>Print all even number</label>
+ <input id="even-input" type="string">
+ <button type="button" (click)="displayEvenNumbers()">Generate</button><br>
+ <p id="even-output"></p><br>
+
+ <label>Print all even numbers from 1 - 1000</label>
+ <button type="button" (click)="displayAllEvenNumbers()">Generate</button><br>
+ <p id="evenAll-output"></p><br>
+
+ <label>Print all numbers divisble by 3</label>
+ <input id="by3-input" type="string">
+ <button type="button" (click)="displayDivisibleBy3()">Generate</button><br>
+ <p id="by3-output"></p><br>
+
+ <label>Fizz Buzz</label>
+ <input id="fizzBuzz-input" type="string">
+ <button type="button" (click)="fizzbuzz()">Generate</button><br>
+ <p id="fizzBuzz-output"></p><br>
+
+ <h2>Max Characters</h2>
+ <label>Display most common character</label>
+ <input id="maxChar-input" type="string">
+ <button type="button" (click)="maxChar()">Generate</button><br>
+ <p id="maxChar-output"></p><br>
+
+
+</div>
