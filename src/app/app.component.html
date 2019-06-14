@@ -1,78 +1,90 @@
 <div class="container">
   <h1>Reverse String</h1>
- <label>Reverse with reverse method</label>
- <input id="reverse1-input" type="string">
- <button type="button" (click)="reverseString1()">Generate</button><br>
- <p id="reverse1-output"></p><br>
- <label>Reverse with old fashion for loop</label>
- <input id="reverse2-input" type="string">
- <button type="button" (click)="reverseString2()">Generate</button><br>
- <p id="reverse2-output"></p><br>
- <label>Reverse with ES6 (for of)</label>
- <input id="reverse3-input" type="string">
- <button type="button" (click)="reverseString3()">Generate</button>
- <p id="reverse3-output"></p><br>
- <label>Reverse with ES6 (forEach)</label>
- <input id="reverse4-input" type="string">
- <button type="button" (click)="reverseString4()">Generate</button>
- <p id="reverse4-output"></p><br>
+  <label>Reverse with reverse method</label>
+  <input id="reverse1-input" type="string" />
+  <button type="button" (click)="reverseString1()">Generate</button><br />
+  <p id="reverse1-output"></p>
+  <br />
+  <label>Reverse with old fashion for loop</label>
+  <input id="reverse2-input" type="string" />
+  <button type="button" (click)="reverseString2()">Generate</button><br />
+  <p id="reverse2-output"></p>
+  <br />
+  <label>Reverse with ES6 (for of)</label>
+  <input id="reverse3-input" type="string" />
+  <button type="button" (click)="reverseString3()">Generate</button>
+  <p id="reverse3-output"></p>
+  <br />
+  <label>Reverse with ES6 (forEach)</label>
+  <input id="reverse4-input" type="string" />
+  <button type="button" (click)="reverseString4()">Generate</button>
+  <p id="reverse4-output"></p>
+  <br />
 
- <h2>Reverse Int</h2>
- <label>Reverse with es6</label>
- <input id="reverseInt-input" type="string">
- <button type="button" (click)="reverseInt()">Generate</button><br>
- <p id="reverseInt-output"></p><br>
+  <h2>Reverse Int</h2>
+  <label>Reverse with es6</label>
+  <input id="reverseInt-input" type="string" />
+  <button type="button" (click)="reverseInt()">Generate</button><br />
+  <p id="reverseInt-output"></p>
+  <br />
+  <p>Test Commit</p>
 
+  <h2>Palindrome</h2>
+  <label>Palindrome without es6</label>
+  <input id="palindrome1-input" type="string" />
+  <button type="button" (click)="palindrome1()">Generate</button><br />
+  <p id="palindrome1-output"></p>
+  <br />
 
- <h2>Palindrome</h2>
- <label>Palindrome without es6</label>
- <input id="palindrome1-input" type="string">
- <button type="button" (click)="palindrome1()">Generate</button><br>
- <p id="palindrome1-output"></p><br>
+  <label>Palindrome with es6 & Ternary</label>
+  <input id="palindrome2-input" type="string" />
+  <button type="button" (click)="palindrome2()">Generate</button><br />
+  <p id="palindrome2-output"></p>
+  <br />
 
- <label>Palindrome with es6 & Ternary</label>
- <input id="palindrome2-input" type="string">
- <button type="button" (click)="palindrome2()">Generate</button><br>
- <p id="palindrome2-output"></p><br>
+  <h2>Capitilize First Letter of each sentence</h2>
+  <label>Capitilize</label>
+  <input id="capitilize-input" type="string" />
+  <button type="button" (click)="displayCapitilize()">Generate</button><br />
+  <p id="capitilize-output"></p>
+  <br />
 
- <h2>Capitilize First Letter of each sentence</h2>
- <label>Capitilize</label>
- <input id="capitilize-input" type="string">
- <button type="button" (click)="displayCapitilize()">Generate</button><br>
- <p id="capitilize-output"></p><br>
+  <h2>Capitilize all letters</h2>
+  <label>Capitilize All</label>
+  <input id="capitilize2-input" type="string" />
+  <button type="button" (click)="displayCapitilize2()">Generate</button><br />
+  <p id="capitilize2-output"></p>
+  <br />
 
+  <h2>Fizz Buzz</h2>
+  <label>Print all even number</label>
+  <input id="even-input" type="string" />
+  <button type="button" (click)="displayEvenNumbers()">Generate</button><br />
+  <p id="even-output"></p>
+  <br />
 
- <h2>Capitilize all letters</h2>
- <label>Capitilize All</label>
- <input id="capitilize2-input" type="string">
- <button type="button" (click)="displayCapitilize2()">Generate</button><br>
- <p id="capitilize2-output"></p><br>
+  <label>Print all even numbers from 1 - 1000</label>
+  <button type="button" (click)="displayAllEvenNumbers()">Generate</button
+  ><br />
+  <p id="evenAll-output"></p>
+  <br />
 
- <h2>Fizz Buzz</h2>
- <label>Print all even number</label>
- <input id="even-input" type="string">
- <button type="button" (click)="displayEvenNumbers()">Generate</button><br>
- <p id="even-output"></p><br>
+  <label>Print all numbers divisble by 3</label>
+  <input id="by3-input" type="string" />
+  <button type="button" (click)="displayDivisibleBy3()">Generate</button><br />
+  <p id="by3-output"></p>
+  <br />
 
- <label>Print all even numbers from 1 - 1000</label>
- <button type="button" (click)="displayAllEvenNumbers()">Generate</button><br>
- <p id="evenAll-output"></p><br>
+  <label>Fizz Buzz</label>
+  <input id="fizzBuzz-input" type="string" />
+  <button type="button" (click)="fizzbuzz()">Generate</button><br />
+  <p id="fizzBuzz-output"></p>
+  <br />
 
- <label>Print all numbers divisble by 3</label>
- <input id="by3-input" type="string">
- <button type="button" (click)="displayDivisibleBy3()">Generate</button><br>
- <p id="by3-output"></p><br>
-
- <label>Fizz Buzz</label>
- <input id="fizzBuzz-input" type="string">
- <button type="button" (click)="fizzbuzz()">Generate</button><br>
- <p id="fizzBuzz-output"></p><br>
-
- <h2>Max Characters</h2>
- <label>Display most common character</label>
- <input id="maxChar-input" type="string">
- <button type="button" (click)="maxChar()">Generate</button><br>
- <p id="maxChar-output"></p><br>
-
-
+  <h2>Max Characters</h2>
+  <label>Display most common character</label>
+  <input id="maxChar-input" type="string" />
+  <button type="button" (click)="maxChar()">Generate</button><br />
+  <p id="maxChar-output"></p>
+  <br />
 </div>
